@@ -45,9 +45,7 @@ CLIENT_SECRET = 'YOUR SECRET'
 client = foursquare.Foursquare(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 
 starting_list = client.venues.search(params={'near': 'Suwanee, GA', 'radius':'3000', 'categoryId':'4d4b7105d754a06376d81259'})
-#print(json.dumps(starting_list, indent = 4))
-
-venue_table = pd.DataFrame(); venue_table_2 = pd.DataFrame();
+print(json.dumps(starting_list, indent = 4))
 ```
 
 #### Requirements
