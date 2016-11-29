@@ -61,7 +61,6 @@ venue_table = pd.DataFrame(); venue_table_2 = pd.DataFrame();
 
 Please use [the following starter code](./code/w8-3.4-starter.ipynb)
 
-> [Solution Code](/code/w8-3.4-solution.ipynb)
 
 #### Deliverable
 
